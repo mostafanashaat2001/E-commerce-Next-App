@@ -27,6 +27,7 @@ export default function Home() {
                 src={hero}
                 // width={500}
                 fill={true}
+                alt="..."
               />
             </div>
           </div>

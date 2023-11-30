@@ -21,10 +21,10 @@ export default async function products() {
   const products = data.products;
   return (
     <>
-      <div className="container pt-5" key={products.id}>
+      <div className="container pt-5">
         <div className="row">
           {products.map((products) => (
-            <div className="col-lg-4 col-xl-3 col-md-6">
+            <div className="col-lg-4 col-xl-3 col-md-6" key={products.id}>
               <Link href={`/products/${products.id}`} className="post">
                 <div className="card">
                   <dev className="image-container">
