@@ -1,0 +1,20 @@
+.navbar {
+  background-color: #111 !important;
+}
+.navbar-brand {
+  font-weight: bold;
+}
+.nav-link,
+.navbar-brand {
+  color: var(--secondary-color);
+  transition: 0.3s;
+}
+.nav-link:hover,
+.navbar-brand:hover,
+.nav-link:focus,
+.navbar-brand:focus {
+  color: var(--primary-color);
+}
+.navbar-toggler:focus {
+  box-shadow: none;
+}

@@ -1,0 +1,46 @@
+.info {
+  margin: auto;
+}
+.title {
+  font-weight: bold;
+  font-size: 40px;
+}
+.desc {
+  line-height: 2rem;
+  color: #777;
+}
+.price {
+  font-weight: bold;
+}
+.btn {
+  padding: 20px 40px;
+  background-color: var(--primary-color);
+  width: max-content;
+  color: var(--secondary-color);
+  text-transform: uppercase;
+  transition: 0.4s;
+}
+.btn:hover {
+  background-color: #00ffffcb;
+  color: #111;
+}
+.image-container {
+  margin: auto;
+  position: relative;
+  width: 500px;
+  height: 400px;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin: 20px;
+}
+
+@media (max-width: 800px) {
+  .image-container {
+    width: 300px;
+    height: 200px;
+  }
+}

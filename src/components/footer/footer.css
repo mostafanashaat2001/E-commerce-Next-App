@@ -1,0 +1,12 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+.copyright {
+  font-weight: bold;
+}
+.icons {
+  display: flex;
+  gap: 10px;
+  cursor: pointer;
+}

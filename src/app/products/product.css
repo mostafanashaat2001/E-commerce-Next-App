@@ -1,0 +1,40 @@
+a {
+  text-decoration: none;
+}
+.post {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  max-width: 18rem;
+  height: 400px;
+  background-color: rgb(40, 40, 40);
+  border: 1px solid #777;
+  margin-bottom: 3rem;
+  border-radius: 15px;
+  transition: 0.3s;
+  /* text-align: center; */
+  overflow: hidden;
+}
+.card:hover {
+  background-color: rgb(30, 30, 30);
+  rotate: 3deg;
+}
+.image-container {
+  position: relative;
+  /* width: 100%; */
+  min-height: 250px;
+  max-height: 250px;
+}
+.image {
+  /* object-fit: cover; */
+  border-radius: 15px;
+}
+
+.card-title {
+  color: var(--secondary-color);
+}
+.card-text {
+  color: var(--secondary-color);
+}
