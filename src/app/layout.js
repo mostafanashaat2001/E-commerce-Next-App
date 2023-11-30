@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from "@/components/navbar/Navbar";
 import BootstrapClient from "@/components/BootstrapClient";
 import { Montserrat } from "next/font/google";
-import Footer from "@/components/footer/footer";
+import Footer from "@/components/footer/Footer";
 
 const bodyFont = Montserrat({ subsets: ["latin"] });
 
